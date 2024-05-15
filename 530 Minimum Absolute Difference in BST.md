@@ -14,7 +14,7 @@ Therefore, to compute the minimum difference, we can
 In the end, we have the correct min_diff.
 
 ## Complexities
-Runtime: O(n)
+Runtime: O(n)  
 Space: O(1)
 
 # Solutions
@@ -64,6 +64,7 @@ class Solution {
 2. Declare an var called min_diff. Compute each element pairs through a loop and update min_diff accordingly.
 3. Exit loop, min_diff will be the absolute minimum diff.
 
+Runtime & Space complexities: O(n)
  ```
 /**
  * Definition for a binary tree node.
